@@ -10,7 +10,7 @@ python ../mcmctree_tree_prep.py \
 --lower_bound 200 \
 --upper_bound 200 \
 --tree ../data/plant1.unroot.nwk \
---add_header 1
+--add_header
 
 echo "test: point estimate 1"
 
@@ -20,7 +20,7 @@ python ../mcmctree_tree_prep.py \
 --lower_bound 200 \
 --upper_bound 200 \
 --tree ../data/plant1.root.nwk \
---add_header 1
+--add_header
 
 echo "test: upper and lower bound 1"
 
@@ -30,7 +30,7 @@ python ../mcmctree_tree_prep.py \
 --lower_bound 40 \
 --upper_bound 54 \
 --tree ../data/plant1.root.nwk \
---add_header 1
+--add_header
 
 echo "test: pipe 1"
 
@@ -56,7 +56,7 @@ python ../mcmctree_tree_prep.py \
 --right_species Arabidopsis_thaliana \
 --upper_bound 200 \
 --tree - \
---add_header 1
+--add_header
 
 echo "test: pipe 2"
 
@@ -72,4 +72,4 @@ python ../mcmctree_tree_prep.py \
 --lower_bound 130 \
 --upper_bound 130 \
 --tree - \
---add_header 1
+--add_header

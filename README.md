@@ -1,6 +1,6 @@
 # Overview
 
-**mcmctree_tree_prep.py** is a tool to prepare input tree files for **mcmctree** in the [**PAML**](http://web.mit.edu/6.891/www/lab/paml.html) package. 
+**mcmctree_tree_prep** is a tool to prepare input tree files for **mcmctree** in the [**PAML**](http://web.mit.edu/6.891/www/lab/paml.html) package. 
 This program allows to introduce fossil constraints in a command-line interface for the divergence time estimation subsequently done by **mcmctree**. 
 This script has been tested with **PAML 4.9** and supports:
 
