@@ -1,3 +1,5 @@
+Since mcmctree_tree_prep has been integrated to [nwkit](https://github.com/kfuku52/nwkit), this repository is no longer maintained. See nwkit for the latest version.
+
 # Overview
 
 **mcmctree_tree_prep** is a tool to prepare input tree files for **mcmctree** in the [**PAML**](http://web.mit.edu/6.891/www/lab/paml.html) package. 
